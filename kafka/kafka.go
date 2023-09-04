@@ -183,7 +183,7 @@ func (impl *kfkMQ) clusterConfig() *sarama.Config {
 	}
 
 	if !cfg.Version.IsAtLeast(sarama.MaxVersion) {
-		cfg.Version = sarama.MaxVersion
+		cfg.Version = sarama.DefaultVersion
 	}
 
 	// no need to handle error
