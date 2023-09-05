@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opensourceways/kafka-lib/mq"
+	"github.com/victorzhou123/kafka-lib/mq"
 )
 
 func (impl *kfkMQ) genHanler(h mq.Handler, opt *mq.SubscribeOptions) eventHandler {

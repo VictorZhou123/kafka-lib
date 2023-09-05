@@ -3,8 +3,8 @@ package agent
 import (
 	"errors"
 
-	"github.com/opensourceways/kafka-lib/kafka"
-	"github.com/opensourceways/kafka-lib/mq"
+	"github.com/victorzhou123/kafka-lib/kafka"
+	"github.com/victorzhou123/kafka-lib/mq"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/google/uuid"
 
-	"github.com/opensourceways/kafka-lib/mq"
+	"github.com/victorzhou123/kafka-lib/mq"
 )
 
 type kfkMQ struct {

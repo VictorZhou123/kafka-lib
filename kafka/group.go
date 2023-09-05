@@ -8,7 +8,7 @@ import (
 	"github.com/IBM/sarama"
 	"github.com/opensourceways/server-common-lib/utils"
 
-	"github.com/opensourceways/kafka-lib/mq"
+	"github.com/victorzhou123/kafka-lib/mq"
 )
 
 type eventHandler interface {

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/opensourceways/kafka-lib/mq"
+	"github.com/victorzhou123/kafka-lib/mq"
 )
 
 func newPublisher(redis Redis, log mq.Logger, queueName string) {

@@ -1,4 +1,4 @@
-module github.com/opensourceways/kafka-lib
+module github.com/victorzhou123/kafka-lib
 
 go 1.18
 
